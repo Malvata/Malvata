@@ -1,14 +1,35 @@
 {
   "name": "create-malvata",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
-    "create-malvata":"index.js"
+    "create-malvata": "index.js"
   },
+  "files": [
+    "index.js",
+    "template-*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "leeyang1990@mail.com",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malvata/malvata.git",
+    "directory": "packages/create-malvata"
+  },
+  "bugs": {
+    "url": "https://github.com/Malvata/malvata/issues"
+  },
+  "homepage": "https://github.com/Malvata/malvata/packages/create-malvata#readme",
+  "dependencies": {
+    "kolorist": "^1.5.0",
+    "minimist": "^1.2.5",
+    "prompts": "^2.4.2"
+  }
 }
