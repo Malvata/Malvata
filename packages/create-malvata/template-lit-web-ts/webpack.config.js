@@ -51,7 +51,7 @@ module.exports = env => {
         },
         externals: {},
         plugins: [
-            new HtmlWebpackPlugin({ filename: "index.html", template: "index.html", title: "jiaoyan-abroad", favicon: "./favicon.ico", }),
+            new HtmlWebpackPlugin({ filename: "index.html", template: "index.html", title: "lit-ts", favicon: "./favicon.svg", }),
             new ForkTsCheckerWebpackPlugin(),
             new CopyPlugin({
                 patterns: [

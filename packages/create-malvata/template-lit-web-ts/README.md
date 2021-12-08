@@ -1,6 +1,5 @@
-# jiaoyan_game_template
+# template
 
-jiaoyan_abroad
 
 
 ### 开始

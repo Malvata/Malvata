@@ -6,7 +6,6 @@ import { styleMap } from 'lit/directives/style-map.js';
 import XyDialog from 'xy-ui/components/xy-dialog'
 (window as any).XyDialog = XyDialog
 import XyMessage from 'xy-ui/components/xy-message';
-import { LoadingUI } from './components/loading-window';
 (window as any).XyMessage = XyMessage;
 /**
  * An example element.
