@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "es6",
+    "target": "es5",
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "preserveConstEnums": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "../lang",
+      "moduleResolution": "Node"
+    },
+    "include": ["./*.ts"]
+  }

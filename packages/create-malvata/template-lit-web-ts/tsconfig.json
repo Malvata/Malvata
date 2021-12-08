@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "outDir": "./dist/",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "useDefineForClassFields": false,
+    "target": "ESNext",
+    "lib": [
+      "es2017",
+      "dom",
+      "DOM.Iterable"
+    ],
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
