@@ -1,6 +1,6 @@
 {
   "name": "create-malvata",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,8 @@
     "template-*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "p":"npm publish . --access=public"
   },
   "author": "leeyang1990@mail.com",
   "license": "ISC",
