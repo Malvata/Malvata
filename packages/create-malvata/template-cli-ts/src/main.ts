@@ -1,10 +1,6 @@
 import { Command } from 'commander';
-import DefaultCommand from './command/default';
-import EntranceCommand from './command/entrance_template';
 import FormCommand from './command/form';
-import NewCommand from './command/new';
 import PublishCommand from './command/publish';
-import TestCommand from './command/test';
 const program = new Command();
 program.version('0.0.1');
 
