@@ -1,6 +1,6 @@
 {
   "name": "create-malvata",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -11,8 +11,7 @@
     "template-*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish":"npm publish . --access=public"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "leeyang1990@mail.com",
   "license": "ISC",
@@ -27,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/Malvata/malvata/issues"
   },
-  "homepage": "https://github.com/Malvata/malvata/packages/create-malvata#readme",
+  "homepage": "https://github.com/Malvata/malvata/tree/main/packages/create-malvata#readme",
   "dependencies": {
     "kolorist": "^1.5.0",
     "minimist": "^1.2.5",
