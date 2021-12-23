@@ -1,9 +1,10 @@
 {
   "name": "malvata",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "p": "npm publish . --access=public"
   },
   "repository": {
     "type": "git",
