@@ -56,8 +56,6 @@ export default class Api {
         return respones.data as T;
     }
 
-    //上传文件
-
     public static pollTask(time: number, predicate: any) {
         return new Promise<IResponse>((resolve, reject) => {
             let poll = () => {

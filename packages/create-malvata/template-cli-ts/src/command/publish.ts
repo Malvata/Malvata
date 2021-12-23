@@ -15,7 +15,7 @@ export default class PublishCommand extends BaseCommand {
     async exec() {
         super.exec()
 
-        console.log(Util.log('发布组件'));
+        Util.log('publish command')
        
     }
     

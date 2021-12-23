@@ -6,14 +6,14 @@ program.version('0.0.1');
 
 program
 .command('publish')
-.description('发布组件')
+.description('publish')
 .action(()=>{
     new PublishCommand();
 })
 
 
 program.command('form')
-.description('生成表单样式文件')
+.description('form')
 .action(()=>{
     new FormCommand();
 })

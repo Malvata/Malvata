@@ -7,7 +7,7 @@ import fs from 'fs-extra'
 
 export default class FormCommand extends BaseCommand {
     async exec() {
-        Util.log('生成表单样式');
+        Util.log('form command');
     }
 }
 

@@ -1,4 +1,4 @@
-
+//cocos creator uuid tools
 import Uuid from "node-uuid";
 
 var Base64KeyChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
