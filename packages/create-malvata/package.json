@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "p":"npm publish . --access=public"
+    "p": "npm publish . --access=public"
   },
   "author": "leeyang1990@mail.com",
   "license": "ISC",
