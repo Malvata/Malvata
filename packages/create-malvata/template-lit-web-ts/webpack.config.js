@@ -14,12 +14,25 @@ module.exports = env => {
         output: {
             filename: `[name].bundle.${version}.js`,
         },
+        target: ['web', 'es5'],
         devtool: false,
         module: {
-            rules: [{
-                    test: /\.tsx?$/,
-                    use: 'ts-loader',
-                    exclude: /node_modules/,
+            rules: [
+                // {
+                //     test: /\.tsx?$/,
+                //     use: 'ts-loader',
+                //     exclude: /node_modules/,
+                // },
+                {
+                    test: /\.(ts|js)?$/,
+                    exclude: {
+                        and: [/node_modules/], // Exclude libraries in node_modules ...
+                        not: [
+                            // Except for a few of them that needs to be transpiled because they use modern syntax
+                            /xy-ui/,
+                        ]
+                    },
+                    use: 'babel-loader',
                 },
                 {
                     test: /\.css$/,
@@ -56,7 +69,6 @@ module.exports = env => {
             new CopyPlugin({
                 patterns: [
                     // { from: "./node_modules/xy-ui/iconfont", to: "iconfont" },
-                    // { from: "favicon.ico", to: "favicon.ico" },
                     { from: "assets", to: "assets" },
                     { from: "lang", to: "lang" },
                     { from: "doc", to: "doc" },
