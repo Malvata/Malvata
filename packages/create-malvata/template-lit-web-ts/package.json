@@ -6,8 +6,7 @@
     "build": "rimraf ./dist && webpack --mode=production",
     "dev": "webpack serve --open  --mode development",
     "local-xliff": "lit-localize extract",
-    "local-build": "lit-localize build && tsc --build ./locales",
-    "publish": "npm run build && node ./publish.js"
+    "local-build": "lit-localize build && tsc --build ./locales"
   },
   "dependencies": {
     "@lit/localize": "^0.11.1",
