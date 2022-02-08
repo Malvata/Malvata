@@ -32,7 +32,7 @@ const FRAMEWORKS = [{
         }]
     },
     {
-        name: 'lit-web',
+        name: 'web',
         color: green,
         variants: [{
             name: 'lit-web-ts',
@@ -44,7 +44,7 @@ const FRAMEWORKS = [{
         name: 'blog',
         color: red,
         variants: [{
-            name: 'svelte-ts',
+            name: 'svelte-blog-ts',
             display: 'TypeScript',
             color: blue
         }]
