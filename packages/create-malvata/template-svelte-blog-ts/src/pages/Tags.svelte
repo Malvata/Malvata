@@ -9,9 +9,11 @@
 
     let tags: Array<string> = [];
     for (const iterator of post_config) {
-        for (const ii of iterator.tags) {
-            if (tags.indexOf(ii) == -1) {
-                tags.push(ii);
+        if (iterator.tags) {
+            for (const ii of iterator.tags) {
+                if (tags.indexOf(ii) == -1) {
+                    tags.push(ii);
+                }
             }
         }
     }
